@@ -233,6 +233,7 @@ func (e entry) String() string {
 // Spatial is an interface for objects that can be stored in an Rtree and queried.
 type Spatial interface {
 	Bounds() *Rect
+	Print() string
 }
 
 // Insertion
